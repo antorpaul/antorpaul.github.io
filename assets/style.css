@@ -1,0 +1,60 @@
+/* titillium font */
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+
+body{
+     background-image: url("top.jpg");
+     background-repeat: repeat-x;
+}
+
+div#content{
+     max-width: 1020px;
+     margin: auto;
+     margin-top: 20px;
+     font-family: 'Titillium Web', sans-serif;
+}
+
+div#header{
+     margin: auto;
+     font-family: 'Titillium Web', sans-serif;
+     display: inline-block;
+}
+
+div#logo{
+     clear: left;
+     margin: none;
+     padding: 0px;
+}
+div#logo h1{
+     margin: 0px;
+}
+
+div#menu{
+     font-family: 'Titillium Web', sans-serif;
+     display: inline-block;
+     list-style-type: none;
+     padding: 0;
+     clear: right;
+}
+
+div#menu ul{
+     padding: 0px;
+}
+
+div#menu li{
+     display: inline;
+     padding-right: 10px;
+}
+
+div#menu a{
+     text-decoration: none;
+     color: #54e2f5;
+}
+
+div#image img {
+     max-width: 1020px;
+     width: auto\9;
+     height: auto;
+     overflow: auto;
+
+}
